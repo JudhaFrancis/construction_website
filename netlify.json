@@ -1,0 +1,13 @@
+{
+  "build": {
+    "command": "echo 'Netlify does not support PHP directly'",
+    "publish": "/"
+  },
+  "redirects": [
+    {
+      "from": "/*",
+      "to": "/index.php",
+      "status": 200
+    }
+  ]
+}
